@@ -1,0 +1,40 @@
+html {
+    background-color: beige;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(3, 50px);
+    gap: 3px;
+}
+
+p {
+    margin: 0;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+    grid-column: span 2;
+}
+
+.blue {
+    background-color: blue;
+    grid-column: span 2;
+}
+
+.green {
+    background-color: green;
+    grid-column: span 1;
+}
+
+.purple {
+    background-color: purple;
+    grid-column: span 3;
+}
+
+.yellow {
+    background-color: yellow;
+    grid-column: span 4;
+}
